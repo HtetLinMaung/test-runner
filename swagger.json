@@ -1,0 +1,181 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "OpenAPI 3.0",
+    "description": "",
+    "version": "1.0.11"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "routes",
+      "description": "Everything about your Routes"
+    }
+  ],
+  "paths": {
+    "/express": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getexpress"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postexpress"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putexpress"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchexpress"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteexpress"
+      }
+    },
+    "/function": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getfunction"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postfunction"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putfunction"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchfunction"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletefunction"
+      }
+    },
+    "/lambda": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getlambda"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postlambda"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putlambda"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchlambda"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletelambda"
+      }
+    },
+    "/test-runner/exec-sql": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "gettest-runner_exec-sql"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "posttest-runner_exec-sql"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "puttest-runner_exec-sql"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchtest-runner_exec-sql"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletetest-runner_exec-sql"
+      }
+    },
+    "/test-runner/request-sql-token": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "gettest-runner_request-sql-token"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "posttest-runner_request-sql-token"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "puttest-runner_request-sql-token"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchtest-runner_request-sql-token"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletetest-runner_request-sql-token"
+      }
+    }
+  }
+}
